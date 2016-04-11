@@ -11,8 +11,9 @@ namespace snake
         static void Main(string[] args)
         {
             //Отрисовка точек
-            Point p2 = new Point(4, 5, '#');
-            p2.Drow(); 
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 5, Direction.RIGHT);
+            snake.Drow();
             
             //Линии
             HorizontalLine lline = new HorizontalLine(0, 118, 0, '+');

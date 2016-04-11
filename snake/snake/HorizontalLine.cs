@@ -15,8 +15,7 @@ namespace snake
             {
                 Point p = new Point(x, y, sym);
                 pList.Add(p);
-            }
-                      
+            }                      
         }
     }
 }
